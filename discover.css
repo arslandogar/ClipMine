@@ -1,0 +1,37 @@
+.discover h3 {
+  font-size: 1.6rem;
+  font-weight: 300;
+  margin-bottom: 4rem;
+  text-align: center;
+}
+
+.discover .videos-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+.discover .video-title {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.discover .share-info {
+  font-size: 0.9rem;
+  font-weight: 400;
+  margin-bottom: 0.5rem;
+}
+
+.discover .share-btn-container {
+  display: flex;
+  flex-direction: row;
+  column-gap: 5px;
+}
+
+@media screen and (max-width: 768px) {
+  .discover .videos-container {
+    grid-template-columns: 1fr;
+  }
+}

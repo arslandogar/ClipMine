@@ -1,0 +1,26 @@
+footer .footer-links {
+  display: flex;
+  flex-direction: row;
+  column-gap: 8px;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 0;
+  background-color: #54413c;
+}
+
+footer .footer-links a {
+  color: #2f6ca6;
+  text-decoration: none;
+}
+
+footer .footer-copyright {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #272727;
+}
+
+footer .footer-copyright p {
+  color: #71614a;
+}

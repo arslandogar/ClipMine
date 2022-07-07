@@ -1,0 +1,45 @@
+.collections .collections-container {
+  display: flex;
+  flex-direction: row;
+  column-gap: 6rem;
+}
+
+.collections .collection-bg {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 460px;
+  height: 180px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.collections .collection-bg p {
+  color: white;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+
+.collections .collection-startup {
+  background-image: url(images/collections/collection-startup_460x184.png);
+}
+
+.collections .collection-ml {
+  background-image: url(images/collections/collection-ml_461x184.png);
+}
+
+@media screen and (max-width: 912px) {
+  .collections .collections-container {
+    flex-direction: column;
+  }
+
+  .collections .collection-bg {
+    margin-bottom: 2rem;
+  }
+
+  .collections .collection-bg {
+    width: 360px;
+  }
+}

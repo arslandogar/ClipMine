@@ -1,0 +1,36 @@
+.banner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 700px;
+  width: 100%;
+  padding: 5rem 0;
+  text-align: center;
+  background-image: url(images/top-section_4360x1500.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+}
+
+.banner h1,
+.banner p {
+  margin: 0;
+  padding: 0;
+}
+
+.banner h1 {
+  font-size: 2.8em;
+  padding: 0.7rem 0;
+  font-weight: 800;
+}
+
+.banner p {
+  font-size: 1.1em;
+  font-weight: 100;
+  letter-spacing: 5px;
+  padding: 0 0.7rem;
+  max-width: 50rem;
+  margin-top: 2rem;
+}
